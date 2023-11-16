@@ -12,5 +12,5 @@ myEmitter.on("birthday", () => {
 myEmitter.on("birthday", (gift) => {
   console.log(`I will send a ${gift}`);
 });
-// calling event . .
+// calling event . . .
 myEmitter.emit("birthday", "bike");
